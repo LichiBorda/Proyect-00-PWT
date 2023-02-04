@@ -1,0 +1,225 @@
+
+nav {
+    font-family: 'Rubik Mono One', sans-serif;
+    
+}
+
+section {
+    font-family: 'Rubik Mono One', sans-serif;
+    
+}
+
+footer {
+ font-family: 'Rubik Mono One', sans-serif;
+}
+         //
+
+
+    // SECCION INICIAL CON VIDEO DE FONDO
+
+.principal{
+    position: relative;
+    height: 100vh;
+}
+
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%,-50%);
+}
+
+.btn-menu {
+    color: #fff;
+    font-size: 25px;
+}
+
+.boton_desliza {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    
+  }
+                   //
+
+
+
+            //DIVISOR DE PAGINA
+
+                  //
+
+
+
+         //SECCION PRINCIPAL PRESENTACION
+#presentacion{
+    margin-top: 0px;
+    
+}
+  
+.contenedor_presentacion {
+ padding-top: 20px;
+}
+
+.subrayado{
+    background-color: rgba(191,53,50,.9);
+    height: 12px;
+    width: 150px;
+    margin-top: 5px;
+}
+
+.parrafo_presentacion{
+    padding-top: 40px;
+    font-size: 1.3rem;
+}
+
+
+.cuadro_data{
+    text-align: center;
+    background-color: rgba(191,53,50,.9);
+    color: #fff;
+    padding: 30px;
+    margin-top: 10px;
+    font-size: 1.4rem;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    line-height: 1.2em;
+    
+}
+
+.data{
+    font-size: 1.3rem;
+}
+            //
+
+
+            //SECCION 2
+.parrafo_presentacion2{
+    padding-top: 40px;
+    font-size: 1.1rem;
+}
+
+.carrusel{
+    max-width: 100%;
+    height: 500px;
+
+}
+
+.titulo{
+    color: rgb(225, 228, 228);
+    
+}
+
+.imagen_contacto{
+    padding-right: 10px;
+}
+
+
+//MEDIA QUERIES
+@media screen and (max-width:1200px) {
+    .carrusel {
+        height: 100%;
+    }
+
+    .titulo{
+        color: rgb(225, 228, 228);
+        padding-top: 50px;
+        
+    }
+    
+}
+
+
+.contacto {
+	border-top: 1px solid #cbcbcb;
+	border-bottom: 1px solid #cbcbcb;
+}
+
+.contacto .titulo {
+	color: #003855;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.contacto .formulario input[type="text"],
+.contacto .formulario input[type="email"],
+.contacto .formulario textarea {
+	padding: 20px;
+	border: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contacto .formulario textarea {
+	height: 150px;
+	min-height: 150px;
+	max-height: 250px;
+}
+
+.contacto .formulario .boton {
+	background: rgb(209, 86, 48);
+	border: none;
+	padding: 7px 30px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+	width: auto;
+	border-radius: 3px;
+}
+
+.contacto .formulario .boton:hover {
+	background: rgb(245, 100, 55);
+}
+
+.redes-sociales {
+	padding: 40px 0;
+	margin-bottom: 40px;
+}
+
+.redes-sociales .icono {
+	width: 60px;
+	height: 60px;
+	color: #fff;
+	background: #cbcbcb;
+	display: inline-block;
+	margin: 0px 20px;
+	text-decoration: none;
+	border-radius: 100px;
+	transition: all .3s ease;
+}
+
+.redes-sociales .icono svg {
+	width: 40px;
+	height: 40px;
+}
+
+.redes-sociales .twitter {background: #1da1f2;}
+.redes-sociales .instagram {background: #833ab4;}
+.redes-sociales .whatsapp {background: #28c030;}
+
+
+.redes-sociales .instagram:hover {background: #b351f5;}
+.redes-sociales .whatsapp:hover {background: #31ee3a;}
+
+
+.relleno_final{
+    
+   
+    background-color: black;
+    height: 50px;
+}
