@@ -235,3 +235,43 @@ footer {
 .text-carrusel{
     font-family: 'Rubik Mono One', sans-serif;
 }
+
+
+
+//SECCION CURSOS
+
+.body_color {
+    background: #f2f2f2;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+
+
+.curso_titulo{
+    border-bottom: 7px solid rgba(191,53,50,.9);
+    font-size: 3rem;
+    padding-top: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:767px) {
+   .curso_titulo { font-size: 2rem;}
+}
+
+
+
+@media screen and (max-width:432px) {
+    .curso_titulo { font-size: 1.5rem;}
+ }
+
+
+.teoria_cursos{
+    padding-top: 50px;
+}
+
+.parrafo_curso{
+    color: black;
+    font-size: 1.2rem;
+}
