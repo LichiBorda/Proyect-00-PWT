@@ -80,6 +80,9 @@ footer {
     margin-top: 5px;
 }
 
+.titulo_section1 {
+    border-bottom: 7px solid rgba(191, 53, 50, 0.9);
+}
 .parrafo_presentacion{
     padding-top: 40px;
     font-size: 1.3rem;
@@ -272,6 +275,15 @@ footer {
 }
 
 .parrafo_curso{
-    color: black;
+     
     font-size: 1.2rem;
+}
+
+
+.titulo_cabo{
+    text-align: center;
+    margin-top: 15px;
+    color: whitesmoke;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
