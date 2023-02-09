@@ -1,4 +1,6 @@
 
+    //FUENTE DEL SITIO
+
 nav {
     font-family: 'Rubik Mono One', sans-serif;
     
@@ -53,17 +55,13 @@ footer {
     top: 70%;
     
   }
-                   //
+               
 
 
 
-            //DIVISOR DE PAGINA
 
-                  //
+  //SECCION PRINCIPAL PRESENTACION
 
-
-
-         //SECCION PRINCIPAL PRESENTACION
 #presentacion{
     margin-top: 0px;
     
@@ -109,7 +107,8 @@ footer {
             //
 
 
-            //SECCION 2
+//SECCION 2
+
 .parrafo_presentacion2{
     padding-top: 40px;
     font-size: 1.1rem;
@@ -145,6 +144,8 @@ footer {
     
 }
 
+
+    //Footer de contacto
 
 .contacto {
 	border-top: 1px solid #cbcbcb;
@@ -220,6 +221,9 @@ footer {
 .redes-sociales .whatsapp:hover {background: #31ee3a;}
 
 
+
+//Relleno final con copyright
+
 .relleno_final{
     
    
@@ -227,6 +231,8 @@ footer {
     height: 50px;
 }
 
+
+//Carrusel de imagen que sustituye video para la version movil 
 
 .d-img{
  
@@ -287,3 +293,7 @@ footer {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+
+// Seccion de cartas de cursos
+
